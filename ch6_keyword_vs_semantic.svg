@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- White background -->
+  <rect width="800" height="400" fill="white"/>
+
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#000">
+    키워드 검색 vs 의미 기반 검색
+  </text>
+
+  <!-- LEFT COLUMN: Keyword Search -->
+  <g id="left-column">
+    <!-- Background -->
+    <rect x="20" y="50" width="360" height="330" fill="#F0F0F0" stroke="#999" stroke-width="1" rx="5"/>
+
+    <!-- Header -->
+    <rect x="20" y="50" width="360" height="35" fill="#808080" rx="5"/>
+    <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      키워드 검색
+    </text>
+    <text x="200" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      (Keyword Search)
+    </text>
+
+    <!-- Query -->
+    <rect x="40" y="110" width="320" height="40" fill="white" stroke="#CCC" stroke-width="1" rx="3"/>
+    <text x="50" y="128" font-family="Arial, sans-serif" font-size="9" fill="#999">검색어:</text>
+    <text x="50" y="143" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000">
+      AWS 비용 절감 방법
+    </text>
+
+    <!-- Search method -->
+    <text x="50" y="175" font-family="Arial, sans-serif" font-size="10" fill="#666" font-weight="bold">검색 방식:</text>
+    <rect x="50" y="180" width="300" height="25" fill="#FFE8E8" stroke="#FF9999" stroke-width="1" rx="3"/>
+    <text x="60" y="198" font-family="Arial, sans-serif" font-size="10" fill="#C00" font-weight="bold">
+      단어 일치 (Exact Match)
+    </text>
+
+    <!-- Results -->
+    <text x="50" y="225" font-family="Arial, sans-serif" font-size="10" fill="#666" font-weight="bold">검색 결과:</text>
+
+    <!-- Result 1: Match -->
+    <rect x="50" y="230" width="300" height="35" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="3"/>
+    <text x="60" y="245" font-family="Arial, sans-serif" font-size="9" fill="#2E7D3E">✅ AWS 비용 절감 가이드</text>
+    <text x="60" y="258" font-family="Arial, sans-serif" font-size="8" fill="#666">(단어 일치)</text>
+
+    <!-- Result 2: Miss -->
+    <rect x="50" y="275" width="300" height="35" fill="#FFEBEE" stroke="#E53935" stroke-width="2" rx="3"/>
+    <text x="60" y="290" font-family="Arial, sans-serif" font-size="9" fill="#C62828">❌ 클라우드 요금 최적화 전략</text>
+    <text x="60" y="303" font-family="Arial, sans-serif" font-size="8" fill="#666">(놓침!)</text>
+
+    <!-- Problem -->
+    <rect x="40" y="325" width="320" height="40" fill="#FFE8E8" stroke="#E53935" stroke-width="1" rx="3"/>
+    <text x="50" y="341" font-family="Arial, sans-serif" font-size="9" fill="#C62828" font-weight="bold">⚠️ 문제점:</text>
+    <text x="50" y="355" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      동의어, 유사 표현을 찾지 못함
+    </text>
+  </g>
+
+  <!-- RIGHT COLUMN: Semantic Search -->
+  <g id="right-column">
+    <!-- Background -->
+    <rect x="420" y="50" width="360" height="330" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+
+    <!-- Star badge -->
+    <g id="star-badge" transform="translate(755, 62)">
+      <polygon points="0,-8 2.4,-2.4 8,-0.8 3.2,3.2 4.8,9.2 0,5.6 -4.8,9.2 -3.2,3.2 -8,-0.8 -2.4,-2.4" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+    </g>
+
+    <!-- Header -->
+    <rect x="420" y="50" width="360" height="35" fill="#4CAF50" rx="5"/>
+    <text x="600" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      의미 기반 검색
+    </text>
+    <text x="600" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">
+      (Semantic Search)
+    </text>
+
+    <!-- Query -->
+    <rect x="440" y="110" width="320" height="40" fill="white" stroke="#4CAF50" stroke-width="1" rx="3"/>
+    <text x="450" y="128" font-family="Arial, sans-serif" font-size="9" fill="#999">검색어:</text>
+    <text x="450" y="143" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000">
+      AWS 비용 절감 방법
+    </text>
+
+    <!-- Search method -->
+    <text x="450" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2E7D3E" font-weight="bold">검색 방식:</text>
+    <rect x="450" y="180" width="300" height="25" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" rx="3"/>
+    <text x="460" y="198" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20" font-weight="bold">
+      벡터 유사도 (Cosine Similarity)
+    </text>
+
+    <!-- Results -->
+    <text x="450" y="225" font-family="Arial, sans-serif" font-size="10" fill="#2E7D3E" font-weight="bold">검색 결과:</text>
+
+    <!-- Result 1: Match -->
+    <rect x="450" y="230" width="300" height="35" fill="#C8E6C9" stroke="#2E7D3E" stroke-width="2" rx="3"/>
+    <text x="460" y="245" font-family="Arial, sans-serif" font-size="9" fill="#1B5E20">✅ AWS 비용 절감 가이드</text>
+    <text x="460" y="258" font-family="Arial, sans-serif" font-size="8" fill="#666">(의미 유사)</text>
+
+    <!-- Result 2: Match now -->
+    <rect x="450" y="275" width="300" height="35" fill="#A5D6A7" stroke="#2E7D3E" stroke-width="2" rx="3"/>
+    <text x="460" y="290" font-family="Arial, sans-serif" font-size="9" fill="#1B5E20">✅ 클라우드 요금 최적화 전략</text>
+    <text x="460" y="303" font-family="Arial, sans-serif" font-size="8" fill="#666">(의미 유사!)</text>
+
+    <!-- Advantage -->
+    <rect x="440" y="325" width="320" height="40" fill="#C8E6C9" stroke="#2E7D3E" stroke-width="1" rx="3"/>
+    <text x="450" y="341" font-family="Arial, sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">✨ 장점:</text>
+    <text x="450" y="355" font-family="Arial, sans-serif" font-size="9" fill="#2E7D3E">
+      동의어, 유사 표현, 다국어도 검색 가능
+    </text>
+  </g>
+</svg>

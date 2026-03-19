@@ -1,0 +1,1 @@
+Part 2. GCP 환경 구성과 Gemini API 기본기
